@@ -1,0 +1,205 @@
+このテキストファイルは、
+実行結果のターミナルの表示内容をコピペしたもの
+
+
+
+Success : You can open input_file!
+
+
+<h2><span id=".E4.B8.80.E5.A4.89.E6.95.B0.E3.81.AE.E5.A0.B4.E5.90.88"></span><span class="mw-headline" id="一変数の場合">一変数の場合</span><span class="mw-editsection">
+<span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F&amp;action=edit&amp;section=1" title="節を編集: 一変数の場合">編集</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;">
+  <
+        PUSH  (st_level,ad_level) = (1, 1)
+                prefix_stack[0]: 21
+                prefix_address[0]: 21
+        DELETE (st_level, ad_level) = (0, 0)
+         SOME VARIABLES :xy
+        data[0]->var : x
+        data[1]->var : y
+         SOME VARIABLES :abc
+        data[0]->var : a
+        data[1]->var : b
+        data[2]->var : c
+        ALL LIST->VAR CHECKED IN ONE LIST
+
+        LIST PRINT
+                [type:17, x]
+                [type:17, y]
+                [type:5]
+                [type:21]**
+                        [type:17, x]
+                        [type:17, a]
+                        [type:17, b]
+                        [type:17, c]
+        DELETE:17, x
+        DELETE:17, y
+        DELETE:5
+        DELETE:17, x
+        DELETE:17, a
+        DELETE:17, b
+        DELETE:17, c
+        DELETE**:21
+        FREE ALL LIST
+</span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bc62b70752a751554a00c396fefd75813a084a7d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:10.658ex; height:2.343ex;" alt="ax+b=0"/>
+  </span>
+  <span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;">
+    <
+        PUSH  (st_level,ad_level) = (1, 1)
+                prefix_stack[0]: 25
+                prefix_address[0]: 25
+
+        PUSH  (st_level,ad_level) = (2, 1)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_address[0]: 25
+
+        PUSH  (st_level,ad_level) = (3, 2)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_stack[2]: 29
+                prefix_address[0]: 25
+                prefix_address[1]: 29
+        DELETE (st_level, ad_level) = (2, 1)
+        DELETE (st_level, ad_level) = (1, 1)
+
+        PUSH  (st_level,ad_level) = (2, 1)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_address[0]: 25
+
+        PUSH  (st_level,ad_level) = (3, 2)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_stack[2]: 21
+                prefix_address[0]: 25
+                prefix_address[1]: 21
+        DELETE (st_level, ad_level) = (2, 1)
+        DELETE (st_level, ad_level) = (1, 1)
+        DELETE (st_level, ad_level) = (0, 0)
+         SOME VARIABLES :abc
+        data[0]->var : a
+        data[1]->var : b
+        data[2]->var : c
+         SOME VARIABLES :xyz
+        data[0]->var : x
+        data[1]->var : y
+        data[2]->var : z
+        ALL LIST->VAR CHECKED IN ONE LIST
+
+        LIST PRINT
+                [type:25]**
+                        [type:29]**
+                                [type:17, x]
+                        [type:5]
+                        [type:17, a]
+                        [type:17, b]
+                        [type:17, c]
+                        [type:21]**
+                                [type:17, x]
+                                [type:17, y]
+                                [type:17, z]
+                                [type:15]
+                        [type:5]
+                        [type:17, y]
+        DELETE:17, x
+        DELETE**:29
+        DELETE:5
+        DELETE:17, a
+        DELETE:17, b
+        DELETE:17, c
+        DELETE:17, x
+        DELETE:17, y
+        DELETE:17, z
+        DELETE:15
+        DELETE**:21
+        DELETE:5
+        DELETE:17, y
+        DELETE**:25
+        FREE ALL LIST
+</span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bc62b70752a751554a00c396fefd75813a084a7d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:10.658ex; height:2.343ex;" alt="ax+b=0"/>
+  </span> または <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;">
+  <dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;">
+  </span></span></dd></dl>
+  <p>This is one of solutions of quadratic equation</p>
+  <
+        PUSH  (st_level,ad_level) = (1, 1)
+                prefix_stack[0]: 25
+                prefix_address[0]: 25
+
+        PUSH  (st_level,ad_level) = (2, 1)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_address[0]: 25
+
+        PUSH  (st_level,ad_level) = (3, 2)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_stack[2]: 29
+                prefix_address[0]: 25
+                prefix_address[1]: 29
+
+        PUSH  (st_level,ad_level) = (4, 2)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_stack[2]: 29
+                prefix_stack[3]: 13
+                prefix_address[0]: 25
+                prefix_address[1]: 29
+
+        PUSH  (st_level,ad_level) = (5, 3)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_stack[2]: 29
+                prefix_stack[3]: 13
+                prefix_stack[4]: 21
+                prefix_address[0]: 25
+                prefix_address[1]: 29
+                prefix_address[2]: 21
+        DELETE (st_level, ad_level) = (4, 2)
+        DELETE (st_level, ad_level) = (3, 2)
+        DELETE (st_level, ad_level) = (2, 1)
+        DELETE (st_level, ad_level) = (1, 1)
+
+        PUSH  (st_level,ad_level) = (2, 1)
+                prefix_stack[0]: 25
+                prefix_stack[1]: 13
+                prefix_address[0]: 25
+        DELETE (st_level, ad_level) = (1, 1)
+        DELETE (st_level, ad_level) = (0, 0)
+        > UNARY OPERATR :-b
+         SOME VARIABLES :ac
+        data[0]->var : a
+        data[1]->var : c
+        ALL LIST->VAR CHECKED IN ONE LIST
+
+        LIST PRINT
+                [type:25]**
+                        [type:17, -b]
+                        [type:5]
+                        [type:29]**
+                                [type:21]**
+                                        [type:17, b]
+                                        [type:15]
+                                [type:6]
+                                [type:15]
+                                [type:17, a]
+                                [type:17, c]
+                        [type:15]
+                        [type:32]
+                        [type:17, a]
+        DELETE:17, -b
+        DELETE:5
+        DELETE:17, b
+        DELETE:15
+        DELETE**:21
+        DELETE:6
+        DELETE:15
+        DELETE:17, a
+        DELETE:17, c
+        DELETE**:29
+        DELETE:15
+        DELETE:32
+        DELETE:17, a
+        DELETE**:25
+        FREE ALL LIST

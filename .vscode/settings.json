@@ -1,0 +1,11 @@
+{
+    "editor.fontFamily": "Osaka-Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.settings.useSplitJSON": true,
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "all",
+    "files.associations": {
+        "tuple": "c"
+    }
+}
