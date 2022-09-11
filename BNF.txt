@@ -1,0 +1,80 @@
+バッカスナウア記法（BNF）で定義した
+
+##　入力ソースコード（表現形式のMathコンテンツ）
+##　属性情報のみ or 属性情報と要素
+
+<math_contents> ::= '<' <attribution> '>'  [ <expression> ]*
+
+
+
+##　属性は数式に直接関わるもの or 直接関わらないもの
+<attribution> 	::= <identifier>
+	      	  | <top_level_attribution>
+
+
+
+##　要素は数字 or 変数 or 見えない演算子
+<expression> 	::= <number>
+	     	 | <variable>
+		 | <factor>
+		 | <operator>
+
+
+
+##　数字は整数型 or 少数型
+<number> 	::= <int_number> | <double_number>
+
+##　整数型
+<int_number>	::= 0|1|2|3|4|5|6|7|8|9
+
+##　８バイトの倍精度浮動小数点実数
+<double_number> ::=
+
+
+
+##　見えない演算子
+<factor>	::= '&ApplyFunction;'|'&InvisibleTimes;'|'&InvisibleComma;'
+		    |'&af;'|'&it;'|'&ic;'
+		    |'&DifferntialD;'| '&df;'
+
+
+##　イコール
+<operator>	::= '='|'<'|'>'
+
+##　数式に直接関わらないもの
+<top_level_attribution> ::=  'math'[<layout>]*
+			     | 'mstyle' [<layout>]*
+			     | 'mtable'
+
+
+##　中置記法 or 前置記法
+<identifier>  ::= <infix_notation>
+	      	  | <prefix_notation>
+
+
+
+##　中置記法
+<infix_notation> ::= 'mi' [ 'mathevavriant=' <word_layout_type>]*
+		     | 'mn'
+		     | 'mo'
+
+
+##　前置記法
+<prefix_notation> ::= 'msup'|'msub'|'msqrt'|'mroot'
+		      |'mfrac'[ <parenthesis_type> ]*
+		      |'mfenced'[ ('bevelled="true"' | 'bevelled="false"') ]*
+
+
+##　mfendedの括弧の形
+<parenthesis_type> ::= ' open="&lang;" close="&rang;"'
+		       |'open="[" close="]"'
+
+
+##　シグマとかで横長に書く or ブロックで書く or MathMLを使うのに必要
+<layout> 	   ::= 'xmlns=""http://www.w3.org/1998/Math/MathML"'
+		       |'display="block"'
+		       |'display="inline"'
+
+
+
+
